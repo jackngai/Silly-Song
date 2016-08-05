@@ -12,6 +12,7 @@
 		98F0C43B1D54D70200C5A994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F0C4391D54D70200C5A994 /* Main.storyboard */; };
 		98F0C43D1D54D70200C5A994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F0C43C1D54D70200C5A994 /* Assets.xcassets */; };
 		98F0C4401D54D70200C5A994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F0C43E1D54D70200C5A994 /* LaunchScreen.storyboard */; };
+		98F0C4481D54D75E00C5A994 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F0C4471D54D75E00C5A994 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		98F0C43C1D54D70200C5A994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98F0C43F1D54D70200C5A994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98F0C4411D54D70200C5A994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F0C4471D54D75E00C5A994 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				98F0C4351D54D70200C5A994 /* AppDelegate.swift */,
 				98F0C4371D54D70200C5A994 /* ViewController.swift */,
 				98F0C4391D54D70200C5A994 /* Main.storyboard */,
+				98F0C4471D54D75E00C5A994 /* Model.swift */,
 				98F0C43C1D54D70200C5A994 /* Assets.xcassets */,
 				98F0C43E1D54D70200C5A994 /* LaunchScreen.storyboard */,
 				98F0C4411D54D70200C5A994 /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					98F0C4311D54D70200C5A994 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 56SGSJ5YCY;
 					};
 				};
 			};
@@ -135,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F0C4481D54D75E00C5A994 /* Model.swift in Sources */,
 				98F0C4381D54D70200C5A994 /* ViewController.swift in Sources */,
 				98F0C4361D54D70200C5A994 /* AppDelegate.swift in Sources */,
 			);
@@ -251,7 +256,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Silly Song/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jackngai.Silly-Song";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -262,7 +269,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Silly Song/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jackngai.Silly-Song";
 				PRODUCT_NAME = "$(TARGET_NAME)";
